@@ -11,7 +11,7 @@ class ApiServices {
       BaseOptions(
           baseUrl: baseUrl,
           receiveDataWhenStatusError: true,
-          connectTimeout: const Duration(seconds: 50),
+          connectTimeout: const Duration(seconds: 40),
           headers: {'Content-Type': 'application/json'}),
     );
   } //end init()
